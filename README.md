@@ -1,2 +1,2 @@
-# standard-theme
-The standard theme available to everyone by default.
+# rushtix-theme
+A custom RushTix theme for comedy shout out videos.
