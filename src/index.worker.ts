@@ -37,14 +37,14 @@ export const siteData: SiteData = {
         <div class="m-8">QR_CODE</div>
         <div>
           <p class="m-4 mb-6 text-base">Point your camera at the QR code to open this link on your
-          phone and send <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">a video request.</span></p>
+          phone and send <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">a video request.</span></p>
         </div>
       </div>
     `,
   },
   nameScreen: {
     // values: UPLOAD_PERCENTAGE, INVITATION_DISPLAY_NAME, SOCIAL_NETWORK
-    instructions: `Add your name and hit Save to send <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b> your shout out request.</span>`,
+    instructions: `Add your name and hit Save to send <b>INVITATION_DISPLAY_NAME</b> your <span class="whitespace-nowrap">shout out request.</span>`,
     saveButtonLabel: "Save my request",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
@@ -57,12 +57,12 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
-          <p class="mt-12 mb-12 mx-3 text-center">This invitation is no longer <span class="whitespace-nowrap">accepting shout out requests.</span></p>
+          <p class="mt-12 mb-12 mx-3 text-center">This invitation is no longer accepting <span class="whitespace-nowrap">shout out requests.</span></p>
           <div class="m-2">
             <a href="https://rushtix.com">
               <img src="THEME_FILE_ROOT/logo.png" style="width: 220px; height: 39px; margin: 0 auto;" />
             </a>
-            <p class="mt-12 mb-12 mx-3 text-center">You'll receive your shout out video from <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b> via email when <span class="whitespace-nowrap">it's ready.</span></span></p>
+            <p class="mt-12 mb-12 mx-3 text-center">You'll receive your shout out video from <b>INVITATION_DISPLAY_NAME</b> via email when <span class="whitespace-nowrap">it's ready.</span></p>
           </div>
         </div>
       </div>
@@ -73,12 +73,12 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
-          <p class="mt-12 mb-12 mx-3 text-center">Nice work! Your video request for <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b> was sent.</span></p>
+          <p class="mt-12 mb-12 mx-3 text-center">Nice work! Your video request for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
           <div class="m-2">
             <a href="https://rushtix.com">
               <img src="THEME_FILE_ROOT/logo.png" style="width: 220px; height: 39px; margin: 0 auto;" />
             </a>
-            <p class="mt-12 mb-12 mx-3 text-center">You'll receive your shout out video from <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b> via email when <span class="whitespace-nowrap">it's ready.</span></span></p>
+            <p class="mt-12 mb-12 mx-3 text-center">You'll receive your shout out video from <b>INVITATION_DISPLAY_NAME</b> via email when <span class="whitespace-nowrap">it's ready.</span></p>
           </div>
         </div>
       </div>
