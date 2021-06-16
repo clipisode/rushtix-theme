@@ -21,6 +21,7 @@ export const siteData: SiteData = {
       <p class="text-left text-gray-700 text-sm py-3">Just tap the three dots menu and choose <span class="whitespace-nowrap">“Open in BROWSER_NAME”</span> to send your request to <span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span>.</p>
     `,
   },
+
   introScreenDesktop: {
     // values: THEME_FILE_ROOT, TOPIC_TITLE, QR_CODE, INVITATION_DISPLAY_NAME, INVITATION_URL
     markup: `
@@ -46,7 +47,7 @@ export const siteData: SiteData = {
     instructions: `Add your name and hit Save to send <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b> your shout out request.</span>`,
     saveButtonLabel: "Save my request",
     nameScreenHeader: `
-      <div class="my-6 flex flex-col items-center">
+      <div class="my-2 flex flex-col items-center">
         <img src="THEME_FILE_ROOT/icon.png" class="w-16 h-16" />
       </div>
     `,
