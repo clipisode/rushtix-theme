@@ -68,7 +68,7 @@ export const siteData: SiteData = {
     `,
   },
   successScreen: {
-    // values: INVITATION_DISPLAY_NAME, THEME_FILE_ROOT
+    // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
