@@ -21,7 +21,10 @@ export const getElements: GetElementsFn = (answer) => {
     y: HEIGHT - 210,
     width: WIDTH,
     height: 210,
-  };
+    rVal: 254,
+    gVal: 77,
+    bVal: 85,
+};
 
   const displayNameTextProps = {
     fontName: "OpenSans-Regular",
@@ -150,7 +153,7 @@ export const getElements: GetElementsFn = (answer) => {
       startAt: 0,
       endAt: TITLEDURATION,
       props: {
-        color: "#0066BB",
+        color: "#fe4d55",
         alpha: 1.0,
         x: 2 * SPACING,
         y: 880,
