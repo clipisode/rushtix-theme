@@ -12,7 +12,7 @@ export const siteData: SiteData = {
     description: "Send a video request (no app needed) for TOPIC_TITLE",
   },
   introScreen: {
-    // values: SOCIAL_NETWORK, BROWSER_NAME, INVITATION_DISPLAY_NAME, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
+    // values: SOCIAL_NETWORK, BROWSER_NAME, TITLE, INVITATION_DISPLAY_NAME, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
     recordButtonLabel: "Record a video request",
     readyDescription: `
       <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Hang on</h1>
